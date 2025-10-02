@@ -259,7 +259,7 @@ export default function Home() {
                   />
                 </span>
                 <span className="slide-in-left font-semibold text-xs">
-                  MySQL
+                  Prototypage
                 </span>
               </div>
             </div>
@@ -277,7 +277,7 @@ export default function Home() {
                     height={32}
                   />
                 </span>
-                <span className="slide-in-left font-semibold text-xs">PHP</span>
+                <span className="slide-in-left font-semibold text-xs">Design Thinking</span>
               </div>
             </div>
             <div>
@@ -301,7 +301,7 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="slide-in-left font-semibold text-xs">
-                  Tailwind
+                  Méthode Agile
                 </span>
               </div>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="slide-in-left font-semibold text-xs">
-                  React
+                  Design de Services
                 </span>
               </div>
             </div>
@@ -425,7 +425,7 @@ export default function Home() {
                   />
                 </span>
                 <span className="slide-in-left font-semibold text-xs">
-                  MySQL
+                  Prototypage
                 </span>
               </div>
             </div>
