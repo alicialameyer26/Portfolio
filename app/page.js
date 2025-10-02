@@ -219,73 +219,65 @@ export default function Home() {
           </h2>
           <div className="w-full grid gap-3 grid-cols-2 sm:grid-cols-3 ">
             <div>
-              <div
-                aria-label="Tech Card"
-                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
-                   flex items-center justify-center gap-[8px]"
-                
-              >
-                <span className="slide-in-right mb-2">
-  
-                </span>
-                <span className="slide-in-left font-bold text-m">
-                Recherche utilisateur
-                </span>
-              </div>
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
+
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Recherche utilisateur
+  </span>
+</div>
             </div>
             <div>
-              <div
-                aria-label="Tech Card"
-                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
-                   flex items-center justify-center gap-[8px]"
-              >
-                <span className="slide-in-right mb-2">
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
 
-                </span>
-                <span className="slide-in-left font-semibold text-m">
-                  Prototypage
-                </span>
-              </div>
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Prototypage
+  </span>
+</div>
+
             </div>
             <div>
-              <div
-                aria-label="Tech Card"
-                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
-                flex items-center justify-center gap-[8px]"
-              >
-                <span className="slide-in-right mb-2">
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
 
-                </span>
-                <span className="slide-in-left font-semibold text-m">Design Thinking</span>
-              </div>
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Design Thinking
+  </span>
+</div>
             </div>
             <div>
-              <div
-                aria-label="Tech Card"
-               className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
-                   flex items-center justify-center gap-[8px]"
-              >
-                <span className="slide-in-right mb-2">
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
 
-                </span>
-                <span className="slide-in-left font-semibold text-m">
-                  Méthode Agile
-                </span>
-              </div>
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Design de services
+  </span>
+</div>
             </div>
             <div>
-              <div
-                aria-label="Tech Card"
-                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
-                   flex items-center justify-center gap-[8px]"
-              >
-                <span className="slide-in-right mb-2">
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
 
-                </span>
-                <span className="slide-in-left font-semibold text-m">
-                  Design de Services
-                </span>
-              </div>
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Méthode agile
+  </span>
+</div>
             </div>
             <div>
             </div>
@@ -298,45 +290,40 @@ export default function Home() {
 
           <div className="w-full grid gap-3 grid-cols-2 sm:grid-cols-3 ">
             <div>
-              <div
-                aria-label="Tech Card"
-                className="w-full px-4 py-2 rounded-full border-2 border-fuchsia-600 text-white text-sm font-medium shadow-sm
-                   flex items-center justify-center gap-[8px]"
-                
-              >
-                <span className="slide-in-right mb-2">
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-fuchsia-600 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
 
-                </span>
-                <span className="slide-in-left font-bold text-m">
-                Travail en collaboration
-                </span>
-              </div>
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Travail en collaboration
+  </span>
+</div>
             </div>
             <div>
-              <div
-                aria-label="Tech Card"
-                className="w-full px-4 py-2 rounded-full border-2 border-fuchsia-600 text-white text-sm font-medium shadow-sm
-                   flex items-center justify-center gap-[8px]"
-              >
-                <span className="slide-in-right mb-2">
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-fuchsia-600 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
 
-                </span>
-                <span className="slide-in-left font-semibold text-m">
-                  Gestion des priorités
-                </span>
-              </div>
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Gestion des priorités
+  </span>
+</div>
             </div>
             <div>
-              <div
-                aria-label="Tech Card"
-                className="w-full px-4 py-2 rounded-full border-2 border-fuchsia-600 text-white text-sm font-medium shadow-sm
-                flex items-center justify-center gap-[8px]"
-              >
-                <span className="slide-in-right mb-2">
+            <div
+  aria-label="Tech Card"
+  className="w-full min-h-12 px-4 py-2 rounded-full border-2 border-fuchsia-600 text-white text-sm font-medium shadow-sm
+             flex items-center justify-center gap-2 text-center"
+>
 
-                </span>
-                <span className="slide-in-left font-semibold text-m">Adaptabilité</span>
-              </div>
+  <span className="slide-in-left font-bold text-m leading-tight w-full min-w-0">
+    Adaptabilité
+  </span>
+</div>
             </div>
             <div>
             </div>
