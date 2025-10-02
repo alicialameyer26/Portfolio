@@ -1,26 +1,29 @@
 import Link from "next/link";
 import ProjectsSection from "./components/ProjectsSection";
 
+
 export default function Home() {
   return (
     <main className="pb-24 lg:pb-4 text-slate-50">
-      <section className="mx-auto max-w-lg px-12 sm:px-0">
+      <section className="mx-auto max-w-4xl px-12 sm:px-0">
         <div className="mt-10 lg:mt-20 xl:mt-24 slide-in-bottom">
           <div className="text-sm font-bold hidden lg:flex gap-3 items-center">
             <img src="/icons/hello.png" alt="hello emoji" className="h-4 w-4" />
-            <p>Bonjour</p>
+            <p>Hello !</p>
           </div>
           <h1 className="text-4xl sm:text-5xl font-semibold mt-5">
-            Moi, c'est <span className="marker">Clément</span>
+            Moi, c'est <span className="marker">Alicia</span>
             <br />
             <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-2 block">
-              Développeur Web.
+              UX & UI Designer.
+        
             </span>
+            
           </h1>
           <div className="flex flex-col sm:flex-row mt-9 gap-3">
             <a
               className="bg-darkTwo  text-slate-50 px-6 py-3  rounded-full capitalize font-medium justify-center flex items-center transform hover:bg-white hover:text-black hover:-translate-y-1 hover:scale-110  transition-all"
-              href="https://www.linkedin.com/in/clementfavarel/"
+              href="https://www.linkedin.com/in/alicia-meyer-951995197/"
               target="_blank"
             >
               <span className="inline-block mr-2 slide-in-bottom overflow">
@@ -40,31 +43,13 @@ export default function Home() {
               </span>
               LinkedIn
             </a>
+
             <a
-              className="bg-darkTwo  text-slate-50 px-6 py-3  rounded-full capitalize font-medium justify-center flex items-center transform hover:bg-white hover:text-black hover:-translate-y-1 hover:scale-110  transition-all"
-              href="https://github.com/clementfavarel"
-              target="_blank"
-            >
-              <span className="inline-block mr-2 slide-in-bottom overflow">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  className="feather feather-github"
-                >
-                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                </svg>
-              </span>
-              Github
-            </a>
-            <a
-              className="bg-darkTwo  text-slate-50 px-6 py-3  rounded-full capitalize font-medium justify-center flex items-center transform hover:bg-white hover:text-black hover:-translate-y-1 hover:scale-110  transition-all"
-              href="mailto:favarel.clmt@gmail.com"
-              target="_blank"
-            >
+  className="bg-darkTwo text-slate-50 px-6 py-3 rounded-full font-medium flex items-center justify-center hover:bg-white hover:text-black hover:-translate-y-1 hover:scale-110  transition-all"
+  href="https://mail.google.com/mail/?view=cm&to=aliciameyer2610@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
               <span className="inline-block mr-2 slide-in-bottom overflow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,9 +68,7 @@ export default function Home() {
             </a>
           </div>
           <p className="text-gray-400 text-lg tracking-wide mt-9">
-            Grâce à mes 2 ans d'expérience en React, PHP, MySQL, Docker et bien
-            d'autres, je suis capable de créer des solutions numériques adaptées
-            à vos besoins.
+            Diplômée d'un Master en UX & UI design, je suis passionnée par le création de produits digitaux intuitifs et efficaces. 
           </p>
         </div>
         <hr className="my-5 opacity-30"></hr>
@@ -98,10 +81,10 @@ export default function Home() {
               <span className="rs-timeline-item-tail"></span>
               <span className="rs-timeline-item-dot"></span>
               <div className="rs-timeline-item-content">
-                <p className="text-slate-50">2020-2021</p>
-                <p className="text-slate-50">Diplômé; Baccalauréat STI2D</p>
-                <span className="text-indigo-300 cursor-pointer">
-                  @Lycée Militaire Aix-en-Pce
+                <p className="text-slate-50">2018 - 2019</p>
+                <p className="text-slate-50">Diplômée Baccalauréat Scientifique</p>
+                <span className="text-indigo-300">
+                  Lycée Victor Hugo, Poitiers
                 </span>
               </div>
             </li>
@@ -109,36 +92,71 @@ export default function Home() {
               <span className="rs-timeline-item-tail"></span>
               <span className="rs-timeline-item-dot"></span>
               <div className="rs-timeline-item-content">
-                <p className="text-slate-50">05/2022- 06/2022</p>
-                <p className="text-slate-50">Stage; Community Manager</p>
-                <span className="text-indigo-300 cursor-pointer">
-                  @Mairie de Miramas
+                <p className="text-slate-50">2020 - 2021</p>
+                <p className="text-slate-50">DUT1 Gestion des Entrprises et des Administrations</p>
+                <span className="text-indigo-300">
+                  Université de Poitiers
+
+                </span>
+              </div>
+            </li>
+            
+            <li align="alternate" className="rs-timeline-item">
+              <span className="rs-timeline-item-tail"></span>
+              <span className="rs-timeline-item-dot"></span>
+              <div className="rs-timeline-item-content">
+                <p className="text-slate-50">05/2020 - 06/2020</p>
+                <p className="text-slate-50">Stage, Assistante ressources humaines</p>
+                <span className="text-indigo-300">
+                  Proman, Poitiers
+
+                </span>
+              </div>
+            </li>
+            <li align="alternate" className="rs-timeline-item">
+              <span className="rs-timeline-item-tail"></span>
+              <span className="rs-timeline-item-dot"></span>
+              <div className="rs-timeline-item-content">
+                <p className="text-slate-50">2020 - 2021</p>
+                <p className="text-slate-50">DUT2 Gestion des Entrprises et des Administrations</p>
+                <span className="text-indigo-300">
+                  Université de Poitiers
+
+                </span>
+              </div>
+            </li>
+            <li align="alternate" className="rs-timeline-item">
+              <span className="rs-timeline-item-tail"></span>
+              <span className="rs-timeline-item-dot"></span>
+              <div className="rs-timeline-item-content">
+                <p className="text-slate-50">04/2020 - 06/2020</p>
+                <p className="text-slate-50">Stage, Responsable de communication</p>
+                <span className="text-indigo-300">
+                  E. Leclerc, Buxerolles
+
+                </span>
+              </div>
+            </li>
+            <li align="alternate" className="rs-timeline-item">
+              <span className="rs-timeline-item-tail"></span>
+              <span className="rs-timeline-item-dot"></span>
+              <div className="rs-timeline-item-content">
+                <p className="text-slate-50">2021-2022</p>
+                <p className="text-slate-50">DUETI Business and Management</p>
+                <span className="text-indigo-300">
+                  Universidad Politecnica de Valencia
+                </span>
+              </div>
+            </li>
+            <li align="alternate" className="rs-timeline-item">
+              <span className="rs-timeline-item-tail"></span>
+              <span className="rs-timeline-item-dot"></span>
+              <div className="rs-timeline-item-content">
+                <p className="text-slate-50">2023-2024</p>
+                <p className="text-slate-50">Master 1 Design d'Expériences & Design d'Interfaces (DEDI) </p>
+                <span className="text-indigo-300">
+                  Université de Toulon, UFR Ingémédia
                   <br />
-                  @IUT MMI Toulon
-                </span>
-              </div>
-            </li>
-            <li align="alternate" className="rs-timeline-item">
-              <span className="rs-timeline-item-tail"></span>
-              <span className="rs-timeline-item-dot"></span>
-              <div className="rs-timeline-item-content">
-                <p className="text-slate-50">06/2022 - 07/2022</p>
-                <p className="text-slate-50">Saison; Webmaster</p>
-                <span className="text-indigo-300 cursor-pointer">
-                  @Mairie de Miramas
-                </span>
-              </div>
-            </li>
-            <li align="alternate" className="rs-timeline-item">
-              <span className="rs-timeline-item-tail"></span>
-              <span className="rs-timeline-item-dot"></span>
-              <div className="rs-timeline-item-content">
-                <p className="text-slate-50">04/2023 - 06/2023</p>
-                <p className="text-slate-50">Stage; Développeur Web</p>
-                <span className="text-indigo-300 cursor-pointer">
-                  @Marine nationale
-                  <br />
-                  @IUT MMI Toulon
                 </span>
               </div>
             </li>
@@ -147,11 +165,11 @@ export default function Home() {
               <span className="rs-timeline-item-dot"></span>
               <div className="rs-timeline-item-content">
                 <p className="text-slate-50">03/2024 - 07/2024</p>
-                <p className="text-slate-50">Stage; Développeur DEVOPS</p>
-                <span className="text-indigo-300 cursor-pointer">
-                  @Marine nationale
+                <p className="text-slate-50">Stage, Cheffe de projets numériques</p>
+                <span className="text-indigo-300">
+                  Diffcom +, Toulouse
                   <br />
-                  @IUT MMI Toulon
+                 
                 </span>
               </div>
             </li>
@@ -159,10 +177,10 @@ export default function Home() {
               <span className="rs-timeline-item-tail"></span>
               <span className="rs-timeline-item-dot"></span>
               <div className="rs-timeline-item-content">
-                <p className="text-slate-50">08/2024</p>
-                <p className="text-slate-50">Etudiant; BUT MMI</p>
-                <span className="text-indigo-300 cursor-pointer">
-                  @IUT MMI Toulon
+                <p className="text-slate-50">2024-2025</p>
+                <p className="text-slate-50">Master 2 DEDI en alternance</p>
+                <span className="text-indigo-300">
+                Université de Toulon, UFR Ingémédia
                 </span>
               </div>
             </li>
@@ -178,12 +196,10 @@ export default function Home() {
                 </div>
               </span>
               <div className="rs-timeline-item-content">
-                <p className="text-slate-50">09/2024 - 10/2027</p>
-                <p className="text-slate-50">Apprenti Ingénieur</p>
-                <span className="text-indigo-300 cursor-pointer">
-                  @ISEN Yncrea Med
-                  <br />
-                  @Marine nationale
+                <p className="text-slate-50">10/2024 - 10/2025</p>
+                <p className="text-slate-50">Apprentie UX & UI Designer</p>
+                <span className="text-indigo-300">
+                  FANlab, Marine nationale, Toulon
                 </span>
               </div>
             </li>
@@ -201,11 +217,13 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-slate-50 mb-5">
             Compétences
           </h2>
-          <div className="w-full grid gap-3 grid-cols-2 sm:grid-cols-3">
+          <div className="w-full grid gap-3 grid-cols-2 sm:grid-cols-3 ">
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
+                
               >
                 <span className="slide-in-right mb-2">
                   <svg
@@ -221,15 +239,16 @@ export default function Home() {
                     <path d="M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z"></path>
                   </svg>
                 </span>
-                <span className="slide-in-left font-semibold text-xs">
-                  Next
+                <span className="slide-in-left font-medium text-s">
+                Recherche utilisateur
                 </span>
               </div>
             </div>
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <img
@@ -247,7 +266,8 @@ export default function Home() {
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <img
@@ -263,7 +283,8 @@ export default function Home() {
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+               className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <svg
@@ -287,7 +308,8 @@ export default function Home() {
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <svg
@@ -311,7 +333,8 @@ export default function Home() {
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <svg
@@ -331,9 +354,42 @@ export default function Home() {
               </div>
             </div>
             <div>
+                          <div
+                aria-label="Tech Card"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
+              >
+                <span className="slide-in-right mb-2">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    viewBox="0 0 640 512"
+                    height="32"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M316.3 452c-2.1 0-4.2-.6-6.1-1.6L291 439c-2.9-1.6-1.5-2.2-.5-2.5 3.8-1.3 4.6-1.6 8.7-4 .4-.2 1-.1 1.4.1l14.8 8.8c.5.3 1.3.3 1.8 0L375 408c.5-.3.9-.9.9-1.6v-66.7c0-.7-.3-1.3-.9-1.6l-57.8-33.3c-.5-.3-1.2-.3-1.8 0l-57.8 33.3c-.6.3-.9 1-.9 1.6v66.7c0 .6.4 1.2.9 1.5l15.8 9.1c8.6 4.3 13.9-.8 13.9-5.8v-65.9c0-.9.7-1.7 1.7-1.7h7.3c.9 0 1.7.7 1.7 1.7v65.9c0 11.5-6.2 18-17.1 18-3.3 0-6 0-13.3-3.6l-15.2-8.7c-3.7-2.2-6.1-6.2-6.1-10.5v-66.7c0-4.3 2.3-8.4 6.1-10.5l57.8-33.4c3.7-2.1 8.5-2.1 12.1 0l57.8 33.4c3.7 2.2 6.1 6.2 6.1 10.5v66.7c0 4.3-2.3 8.4-6.1 10.5l-57.8 33.4c-1.7 1.1-3.8 1.7-6 1.7zm46.7-65.8c0-12.5-8.4-15.8-26.2-18.2-18-2.4-19.8-3.6-19.8-7.8 0-3.5 1.5-8.1 14.8-8.1 11.9 0 16.3 2.6 18.1 10.6.2.8.8 1.3 1.6 1.3h7.5c.5 0 .9-.2 1.2-.5.3-.4.5-.8.4-1.3-1.2-13.8-10.3-20.2-28.8-20.2-16.5 0-26.3 7-26.3 18.6 0 12.7 9.8 16.1 25.6 17.7 18.9 1.9 20.4 4.6 20.4 8.3 0 6.5-5.2 9.2-17.4 9.2-15.3 0-18.7-3.8-19.8-11.4-.1-.8-.8-1.4-1.7-1.4h-7.5c-.9 0-1.7.7-1.7 1.7 0 9.7 5.3 21.3 30.6 21.3 18.5 0 29-7.2 29-19.8zm54.5-50.1c0 6.1-5 11.1-11.1 11.1s-11.1-5-11.1-11.1c0-6.3 5.2-11.1 11.1-11.1 6-.1 11.1 4.8 11.1 11.1zm-1.8 0c0-5.2-4.2-9.3-9.4-9.3-5.1 0-9.3 4.1-9.3 9.3 0 5.2 4.2 9.4 9.3 9.4 5.2-.1 9.4-4.3 9.4-9.4zm-4.5 6.2h-2.6c-.1-.6-.5-3.8-.5-3.9-.2-.7-.4-1.1-1.3-1.1h-2.2v5h-2.4v-12.5h4.3c1.5 0 4.4 0 4.4 3.3 0 2.3-1.5 2.8-2.4 3.1 1.7.1 1.8 1.2 2.1 2.8.1 1 .3 2.7.6 3.3zm-2.8-8.8c0-1.7-1.2-1.7-1.8-1.7h-2v3.5h1.9c1.6 0 1.9-1.1 1.9-1.8zM137.3 191c0-2.7-1.4-5.1-3.7-6.4l-61.3-35.3c-1-.6-2.2-.9-3.4-1h-.6c-1.2 0-2.3.4-3.4 1L3.7 184.6C1.4 185.9 0 188.4 0 191l.1 95c0 1.3.7 2.5 1.8 3.2 1.1.7 2.5.7 3.7 0L42 268.3c2.3-1.4 3.7-3.8 3.7-6.4v-44.4c0-2.6 1.4-5.1 3.7-6.4l15.5-8.9c1.2-.7 2.4-1 3.7-1 1.3 0 2.6.3 3.7 1l15.5 8.9c2.3 1.3 3.7 3.8 3.7 6.4v44.4c0 2.6 1.4 5.1 3.7 6.4l36.4 20.9c1.1.7 2.6.7 3.7 0 1.1-.6 1.8-1.9 1.8-3.2l.2-95zM472.5 87.3v176.4c0 2.6-1.4 5.1-3.7 6.4l-61.3 35.4c-2.3 1.3-5.1 1.3-7.4 0l-61.3-35.4c-2.3-1.3-3.7-3.8-3.7-6.4v-70.8c0-2.6 1.4-5.1 3.7-6.4l61.3-35.4c2.3-1.3 5.1-1.3 7.4 0l15.3 8.8c1.7 1 3.9-.3 3.9-2.2v-94c0-2.8 3-4.6 5.5-3.2l36.5 20.4c2.3 1.2 3.8 3.7 3.8 6.4zm-46 128.9c0-.7-.4-1.3-.9-1.6l-21-12.2c-.6-.3-1.3-.3-1.9 0l-21 12.2c-.6.3-.9.9-.9 1.6v24.3c0 .7.4 1.3.9 1.6l21 12.1c.6.3 1.3.3 1.8 0l21-12.1c.6-.3.9-.9.9-1.6v-24.3zm209.8-.7c2.3-1.3 3.7-3.8 3.7-6.4V192c0-2.6-1.4-5.1-3.7-6.4l-60.9-35.4c-2.3-1.3-5.1-1.3-7.4 0l-61.3 35.4c-2.3 1.3-3.7 3.8-3.7 6.4v70.8c0 2.7 1.4 5.1 3.7 6.4l60.9 34.7c2.2 1.3 5 1.3 7.3 0l36.8-20.5c2.5-1.4 2.5-5 0-6.4L550 241.6c-1.2-.7-1.9-1.9-1.9-3.2v-22.2c0-1.3.7-2.5 1.9-3.2l19.2-11.1c1.1-.7 2.6-.7 3.7 0l19.2 11.1c1.1.7 1.9 1.9 1.9 3.2v17.4c0 2.8 3.1 4.6 5.6 3.2l36.7-21.3zM559 219c-.4.3-.7.7-.7 1.2v13.6c0 .5.3 1 .7 1.2l11.8 6.8c.4.3 1 .3 1.4 0L584 235c.4-.3.7-.7.7-1.2v-13.6c0-.5-.3-1-.7-1.2l-11.8-6.8c-.4-.3-1-.3-1.4 0L559 219zm-254.2 43.5v-70.4c0-2.6-1.6-5.1-3.9-6.4l-61.1-35.2c-2.1-1.2-5-1.4-7.4 0l-61.1 35.2c-2.3 1.3-3.9 3.7-3.9 6.4v70.4c0 2.8 1.9 5.2 4 6.4l61.2 35.2c2.4 1.4 5.2 1.3 7.4 0l61-35.2c1.8-1 3.1-2.7 3.6-4.7.1-.5.2-1.1.2-1.7zm-74.3-124.9l-.8.5h1.1l-.3-.5zm76.2 130.2l-.4-.7v.9l.4-.2z"></path>
+                  </svg>
+                </span>
+                <span className="slide-in-left font-semibold text-xs">
+                  Node
+                </span>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+        <hr className="my-1.5 opacity-0"></hr>
+        <div id="skills">
+
+          <div className="w-full grid gap-3 grid-cols-2 sm:grid-cols-3 ">
+            <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
+                
               >
                 <span className="slide-in-right mb-2">
                   <svg
@@ -346,68 +402,55 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <title></title>
-                    <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"></path>
+                    <path d="M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z"></path>
                   </svg>
                 </span>
-                <span className="slide-in-left font-semibold text-xs">
-                  Express
+                <span className="slide-in-left font-medium text-s">
+                Recherche utilisateur
                 </span>
               </div>
             </div>
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    height="32"
-                    width="32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M4 13h5"></path>
-                    <path d="M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3"></path>
-                    <path d="M20 8v8"></path>
-                    <path d="M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"></path>
-                  </svg>
+                  <img
+                    src="/icons/mysql.svg"
+                    alt="MySQL logo"
+                    width={32}
+                    height={32}
+                  />
                 </span>
                 <span className="slide-in-left font-semibold text-xs">
-                  REST
+                  MySQL
                 </span>
               </div>
             </div>
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
-                  <svg
-                    stroke="currentColor"
-                    fill="currentColor"
-                    role="img"
-                    viewBox="0 0 24 24"
-                    height="32"
-                    width="32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title></title>
-                    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>
-                  </svg>
+                  <img
+                    src="/icons/php.svg"
+                    alt="PHP logo"
+                    width={32}
+                    height={32}
+                  />
                 </span>
-                <span className="slide-in-left font-semibold text-xs">
-                  HTML
-                </span>
+                <span className="slide-in-left font-semibold text-xs">PHP</span>
               </div>
             </div>
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+               className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <svg
@@ -420,16 +463,19 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <title></title>
-                    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"></path>
+                    <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"></path>
                   </svg>
                 </span>
-                <span className="slide-in-left font-semibold text-xs">CSS</span>
+                <span className="slide-in-left font-semibold text-xs">
+                  Tailwind
+                </span>
               </div>
             </div>
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <svg
@@ -442,37 +488,61 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <title></title>
-                    <path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"></path>
+                    <path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"></path>
                   </svg>
                 </span>
                 <span className="slide-in-left font-semibold text-xs">
-                  Javascript
+                  React
                 </span>
               </div>
             </div>
             <div>
               <div
                 aria-label="Tech Card"
-                className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative h-32 flex justify-center items-center flex-col gap-1.5 overflow-hidden hover:bg-darkOne transition-all cursor-pointer"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
               >
                 <span className="slide-in-right mb-2">
                   <svg
-                    width="32"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    viewBox="0 0 640 512"
                     height="32"
-                    viewBox="0 0 50 52"
+                    width="32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <title>Laravel</title>
-                    <path
-                      d="M49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1-.402.694l-9.209 5.302V39.25c0 .286-.152.55-.4.694L20.42 51.01c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1-.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054L.402 39.944A.801.801 0 0 1 0 39.25V6.334c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216l17.62-10.144zM1.602 7.719v31.068L19.22 48.93v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-.002-21.481L4.965 9.654 1.602 7.72zm8.81-5.994L2.405 6.334l8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764l4.645-2.674V7.719l-3.363 1.936-4.646 2.675v20.096l3.364-1.937zM39.243 7.164l-8.006 4.609 8.006 4.609 8.005-4.61-8.005-4.608zm-.801 10.605l-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937v-9.124zM20.02 38.33l11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833 7.993 4.524z"
-                      fill="rgb(241 245 249)"
-                    />
+                    <path d="M316.3 452c-2.1 0-4.2-.6-6.1-1.6L291 439c-2.9-1.6-1.5-2.2-.5-2.5 3.8-1.3 4.6-1.6 8.7-4 .4-.2 1-.1 1.4.1l14.8 8.8c.5.3 1.3.3 1.8 0L375 408c.5-.3.9-.9.9-1.6v-66.7c0-.7-.3-1.3-.9-1.6l-57.8-33.3c-.5-.3-1.2-.3-1.8 0l-57.8 33.3c-.6.3-.9 1-.9 1.6v66.7c0 .6.4 1.2.9 1.5l15.8 9.1c8.6 4.3 13.9-.8 13.9-5.8v-65.9c0-.9.7-1.7 1.7-1.7h7.3c.9 0 1.7.7 1.7 1.7v65.9c0 11.5-6.2 18-17.1 18-3.3 0-6 0-13.3-3.6l-15.2-8.7c-3.7-2.2-6.1-6.2-6.1-10.5v-66.7c0-4.3 2.3-8.4 6.1-10.5l57.8-33.4c3.7-2.1 8.5-2.1 12.1 0l57.8 33.4c3.7 2.2 6.1 6.2 6.1 10.5v66.7c0 4.3-2.3 8.4-6.1 10.5l-57.8 33.4c-1.7 1.1-3.8 1.7-6 1.7zm46.7-65.8c0-12.5-8.4-15.8-26.2-18.2-18-2.4-19.8-3.6-19.8-7.8 0-3.5 1.5-8.1 14.8-8.1 11.9 0 16.3 2.6 18.1 10.6.2.8.8 1.3 1.6 1.3h7.5c.5 0 .9-.2 1.2-.5.3-.4.5-.8.4-1.3-1.2-13.8-10.3-20.2-28.8-20.2-16.5 0-26.3 7-26.3 18.6 0 12.7 9.8 16.1 25.6 17.7 18.9 1.9 20.4 4.6 20.4 8.3 0 6.5-5.2 9.2-17.4 9.2-15.3 0-18.7-3.8-19.8-11.4-.1-.8-.8-1.4-1.7-1.4h-7.5c-.9 0-1.7.7-1.7 1.7 0 9.7 5.3 21.3 30.6 21.3 18.5 0 29-7.2 29-19.8zm54.5-50.1c0 6.1-5 11.1-11.1 11.1s-11.1-5-11.1-11.1c0-6.3 5.2-11.1 11.1-11.1 6-.1 11.1 4.8 11.1 11.1zm-1.8 0c0-5.2-4.2-9.3-9.4-9.3-5.1 0-9.3 4.1-9.3 9.3 0 5.2 4.2 9.4 9.3 9.4 5.2-.1 9.4-4.3 9.4-9.4zm-4.5 6.2h-2.6c-.1-.6-.5-3.8-.5-3.9-.2-.7-.4-1.1-1.3-1.1h-2.2v5h-2.4v-12.5h4.3c1.5 0 4.4 0 4.4 3.3 0 2.3-1.5 2.8-2.4 3.1 1.7.1 1.8 1.2 2.1 2.8.1 1 .3 2.7.6 3.3zm-2.8-8.8c0-1.7-1.2-1.7-1.8-1.7h-2v3.5h1.9c1.6 0 1.9-1.1 1.9-1.8zM137.3 191c0-2.7-1.4-5.1-3.7-6.4l-61.3-35.3c-1-.6-2.2-.9-3.4-1h-.6c-1.2 0-2.3.4-3.4 1L3.7 184.6C1.4 185.9 0 188.4 0 191l.1 95c0 1.3.7 2.5 1.8 3.2 1.1.7 2.5.7 3.7 0L42 268.3c2.3-1.4 3.7-3.8 3.7-6.4v-44.4c0-2.6 1.4-5.1 3.7-6.4l15.5-8.9c1.2-.7 2.4-1 3.7-1 1.3 0 2.6.3 3.7 1l15.5 8.9c2.3 1.3 3.7 3.8 3.7 6.4v44.4c0 2.6 1.4 5.1 3.7 6.4l36.4 20.9c1.1.7 2.6.7 3.7 0 1.1-.6 1.8-1.9 1.8-3.2l.2-95zM472.5 87.3v176.4c0 2.6-1.4 5.1-3.7 6.4l-61.3 35.4c-2.3 1.3-5.1 1.3-7.4 0l-61.3-35.4c-2.3-1.3-3.7-3.8-3.7-6.4v-70.8c0-2.6 1.4-5.1 3.7-6.4l61.3-35.4c2.3-1.3 5.1-1.3 7.4 0l15.3 8.8c1.7 1 3.9-.3 3.9-2.2v-94c0-2.8 3-4.6 5.5-3.2l36.5 20.4c2.3 1.2 3.8 3.7 3.8 6.4zm-46 128.9c0-.7-.4-1.3-.9-1.6l-21-12.2c-.6-.3-1.3-.3-1.9 0l-21 12.2c-.6.3-.9.9-.9 1.6v24.3c0 .7.4 1.3.9 1.6l21 12.1c.6.3 1.3.3 1.8 0l21-12.1c.6-.3.9-.9.9-1.6v-24.3zm209.8-.7c2.3-1.3 3.7-3.8 3.7-6.4V192c0-2.6-1.4-5.1-3.7-6.4l-60.9-35.4c-2.3-1.3-5.1-1.3-7.4 0l-61.3 35.4c-2.3 1.3-3.7 3.8-3.7 6.4v70.8c0 2.7 1.4 5.1 3.7 6.4l60.9 34.7c2.2 1.3 5 1.3 7.3 0l36.8-20.5c2.5-1.4 2.5-5 0-6.4L550 241.6c-1.2-.7-1.9-1.9-1.9-3.2v-22.2c0-1.3.7-2.5 1.9-3.2l19.2-11.1c1.1-.7 2.6-.7 3.7 0l19.2 11.1c1.1.7 1.9 1.9 1.9 3.2v17.4c0 2.8 3.1 4.6 5.6 3.2l36.7-21.3zM559 219c-.4.3-.7.7-.7 1.2v13.6c0 .5.3 1 .7 1.2l11.8 6.8c.4.3 1 .3 1.4 0L584 235c.4-.3.7-.7.7-1.2v-13.6c0-.5-.3-1-.7-1.2l-11.8-6.8c-.4-.3-1-.3-1.4 0L559 219zm-254.2 43.5v-70.4c0-2.6-1.6-5.1-3.9-6.4l-61.1-35.2c-2.1-1.2-5-1.4-7.4 0l-61.1 35.2c-2.3 1.3-3.9 3.7-3.9 6.4v70.4c0 2.8 1.9 5.2 4 6.4l61.2 35.2c2.4 1.4 5.2 1.3 7.4 0l61-35.2c1.8-1 3.1-2.7 3.6-4.7.1-.5.2-1.1.2-1.7zm-74.3-124.9l-.8.5h1.1l-.3-.5zm76.2 130.2l-.4-.7v.9l.4-.2z"></path>
                   </svg>
                 </span>
                 <span className="slide-in-left font-semibold text-xs">
-                  Laravel
+                  Node
                 </span>
               </div>
+            </div>
+            <div>
+                          <div
+                aria-label="Tech Card"
+                className="w-full px-4 py-2 rounded-full border-2 border-indigo-300 text-white text-sm font-medium shadow-sm
+                   flex items-center justify-center gap-[8px]"
+              >
+                <span className="slide-in-right mb-2">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    viewBox="0 0 640 512"
+                    height="32"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M316.3 452c-2.1 0-4.2-.6-6.1-1.6L291 439c-2.9-1.6-1.5-2.2-.5-2.5 3.8-1.3 4.6-1.6 8.7-4 .4-.2 1-.1 1.4.1l14.8 8.8c.5.3 1.3.3 1.8 0L375 408c.5-.3.9-.9.9-1.6v-66.7c0-.7-.3-1.3-.9-1.6l-57.8-33.3c-.5-.3-1.2-.3-1.8 0l-57.8 33.3c-.6.3-.9 1-.9 1.6v66.7c0 .6.4 1.2.9 1.5l15.8 9.1c8.6 4.3 13.9-.8 13.9-5.8v-65.9c0-.9.7-1.7 1.7-1.7h7.3c.9 0 1.7.7 1.7 1.7v65.9c0 11.5-6.2 18-17.1 18-3.3 0-6 0-13.3-3.6l-15.2-8.7c-3.7-2.2-6.1-6.2-6.1-10.5v-66.7c0-4.3 2.3-8.4 6.1-10.5l57.8-33.4c3.7-2.1 8.5-2.1 12.1 0l57.8 33.4c3.7 2.2 6.1 6.2 6.1 10.5v66.7c0 4.3-2.3 8.4-6.1 10.5l-57.8 33.4c-1.7 1.1-3.8 1.7-6 1.7zm46.7-65.8c0-12.5-8.4-15.8-26.2-18.2-18-2.4-19.8-3.6-19.8-7.8 0-3.5 1.5-8.1 14.8-8.1 11.9 0 16.3 2.6 18.1 10.6.2.8.8 1.3 1.6 1.3h7.5c.5 0 .9-.2 1.2-.5.3-.4.5-.8.4-1.3-1.2-13.8-10.3-20.2-28.8-20.2-16.5 0-26.3 7-26.3 18.6 0 12.7 9.8 16.1 25.6 17.7 18.9 1.9 20.4 4.6 20.4 8.3 0 6.5-5.2 9.2-17.4 9.2-15.3 0-18.7-3.8-19.8-11.4-.1-.8-.8-1.4-1.7-1.4h-7.5c-.9 0-1.7.7-1.7 1.7 0 9.7 5.3 21.3 30.6 21.3 18.5 0 29-7.2 29-19.8zm54.5-50.1c0 6.1-5 11.1-11.1 11.1s-11.1-5-11.1-11.1c0-6.3 5.2-11.1 11.1-11.1 6-.1 11.1 4.8 11.1 11.1zm-1.8 0c0-5.2-4.2-9.3-9.4-9.3-5.1 0-9.3 4.1-9.3 9.3 0 5.2 4.2 9.4 9.3 9.4 5.2-.1 9.4-4.3 9.4-9.4zm-4.5 6.2h-2.6c-.1-.6-.5-3.8-.5-3.9-.2-.7-.4-1.1-1.3-1.1h-2.2v5h-2.4v-12.5h4.3c1.5 0 4.4 0 4.4 3.3 0 2.3-1.5 2.8-2.4 3.1 1.7.1 1.8 1.2 2.1 2.8.1 1 .3 2.7.6 3.3zm-2.8-8.8c0-1.7-1.2-1.7-1.8-1.7h-2v3.5h1.9c1.6 0 1.9-1.1 1.9-1.8zM137.3 191c0-2.7-1.4-5.1-3.7-6.4l-61.3-35.3c-1-.6-2.2-.9-3.4-1h-.6c-1.2 0-2.3.4-3.4 1L3.7 184.6C1.4 185.9 0 188.4 0 191l.1 95c0 1.3.7 2.5 1.8 3.2 1.1.7 2.5.7 3.7 0L42 268.3c2.3-1.4 3.7-3.8 3.7-6.4v-44.4c0-2.6 1.4-5.1 3.7-6.4l15.5-8.9c1.2-.7 2.4-1 3.7-1 1.3 0 2.6.3 3.7 1l15.5 8.9c2.3 1.3 3.7 3.8 3.7 6.4v44.4c0 2.6 1.4 5.1 3.7 6.4l36.4 20.9c1.1.7 2.6.7 3.7 0 1.1-.6 1.8-1.9 1.8-3.2l.2-95zM472.5 87.3v176.4c0 2.6-1.4 5.1-3.7 6.4l-61.3 35.4c-2.3 1.3-5.1 1.3-7.4 0l-61.3-35.4c-2.3-1.3-3.7-3.8-3.7-6.4v-70.8c0-2.6 1.4-5.1 3.7-6.4l61.3-35.4c2.3-1.3 5.1-1.3 7.4 0l15.3 8.8c1.7 1 3.9-.3 3.9-2.2v-94c0-2.8 3-4.6 5.5-3.2l36.5 20.4c2.3 1.2 3.8 3.7 3.8 6.4zm-46 128.9c0-.7-.4-1.3-.9-1.6l-21-12.2c-.6-.3-1.3-.3-1.9 0l-21 12.2c-.6.3-.9.9-.9 1.6v24.3c0 .7.4 1.3.9 1.6l21 12.1c.6.3 1.3.3 1.8 0l21-12.1c.6-.3.9-.9.9-1.6v-24.3zm209.8-.7c2.3-1.3 3.7-3.8 3.7-6.4V192c0-2.6-1.4-5.1-3.7-6.4l-60.9-35.4c-2.3-1.3-5.1-1.3-7.4 0l-61.3 35.4c-2.3 1.3-3.7 3.8-3.7 6.4v70.8c0 2.7 1.4 5.1 3.7 6.4l60.9 34.7c2.2 1.3 5 1.3 7.3 0l36.8-20.5c2.5-1.4 2.5-5 0-6.4L550 241.6c-1.2-.7-1.9-1.9-1.9-3.2v-22.2c0-1.3.7-2.5 1.9-3.2l19.2-11.1c1.1-.7 2.6-.7 3.7 0l19.2 11.1c1.1.7 1.9 1.9 1.9 3.2v17.4c0 2.8 3.1 4.6 5.6 3.2l36.7-21.3zM559 219c-.4.3-.7.7-.7 1.2v13.6c0 .5.3 1 .7 1.2l11.8 6.8c.4.3 1 .3 1.4 0L584 235c.4-.3.7-.7.7-1.2v-13.6c0-.5-.3-1-.7-1.2l-11.8-6.8c-.4-.3-1-.3-1.4 0L559 219zm-254.2 43.5v-70.4c0-2.6-1.6-5.1-3.9-6.4l-61.1-35.2c-2.1-1.2-5-1.4-7.4 0l-61.1 35.2c-2.3 1.3-3.9 3.7-3.9 6.4v70.4c0 2.8 1.9 5.2 4 6.4l61.2 35.2c2.4 1.4 5.2 1.3 7.4 0l61-35.2c1.8-1 3.1-2.7 3.6-4.7.1-.5.2-1.1.2-1.7zm-74.3-124.9l-.8.5h1.1l-.3-.5zm76.2 130.2l-.4-.7v.9l.4-.2z"></path>
+                  </svg>
+                </span>
+                <span className="slide-in-left font-semibold text-xs">
+                  Node
+                </span>
+              </div>
+            </div>
+            <div>
             </div>
           </div>
         </div>
@@ -728,7 +798,7 @@ export default function Home() {
           </h3>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1S2kM43nwGGfMOIJalTBecyYVlqFBgup1/view?usp=sharing"
+            href="img/cv.pdf"
             className="bg-darkTwo text-slate-50 px-6 py-3  rounded-full inline-flex items-center transform hover:bg-white hover:text-black hover:-translate-y-1  transition-all duration-300 ease-in-out gap-1 hover:scale-110"
           >
             Voir mon CV

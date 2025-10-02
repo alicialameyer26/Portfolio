@@ -22,7 +22,7 @@ export default function ProjectPage({ params }) {
 
   return (
     <main className="pb-24 lg:pb-24 text-slate-50">
-      <section className="mx-auto max-w-lg px-12 sm:px-0">
+      <section className="mx-auto max-w-4xl px-12 sm:px-0">
         <div className="mt-10 lg:mt-20 xl:mt-24 slide-in-bottom">
           <Link
             href="/"
@@ -41,7 +41,7 @@ export default function ProjectPage({ params }) {
             >
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
-            Back to Home
+            Retour
           </Link>
           <h1 className="text-4xl sm:text-5xl font-semibold mt-6">
             {project.title}
@@ -65,11 +65,20 @@ export default function ProjectPage({ params }) {
             </div>
           )}
 
-          <p className="text-gray-400 text-lg tracking-wide mt-8">
-            {project.fullDescription}
-          </p>
+<div className="text-gray-400 text-lg tracking-wide mt-8 space-y-4">
+  {project.fullDescription.split('\n').map((line, index) => {
+    if (line.startsWith('- ')) {
+      // On enlève le tiret et on affiche comme une puce
+      return <li key={index} className="ml-5 list-disc">{line.substring(2)}</li>;
+    } else if (line.trim() === '') {
+      return <br key={index} />;
+    } else {
+      return <p key={index}>{line}</p>;
+    }
+  })}
+</div>
           <hr className="my-5 opacity-30"></hr>
-          <h2 className="font-bold text-xl">Technologies utilisées :</h2>
+          <h2 className="font-bold text-xl">Outils utilisés :</h2>
           <div className="flex mt-5 gap-3 flex-wrap">
             {project.technologies.map((tech, index) => (
               <span
@@ -81,15 +90,12 @@ export default function ProjectPage({ params }) {
             ))}
           </div>
           <hr className="my-5 opacity-30"></hr>
-          <h2 className="font-bold text-xl">Concepts clés :</h2>
-          <ul className="flex flex-col gap-3 text-gray-400 pt-3">
-            {project.concepts.map((concept, index) => (
-              <li key={index}>
-                <span className="text-slate-50 font-bold">- </span>
-                {concept}
-              </li>
-            ))}
-          </ul>
+          <h2 className="font-bold text-xl">Enjeux clés :</h2>
+          <ul className="flex flex-col gap-3 text-gray-100 pt-3 list-disc pl-5">
+  {project.concepts.map((concept, index) => (
+    <li key={index}>{concept}</li>
+  ))}
+</ul>
         </div>
       </section>
     </main>

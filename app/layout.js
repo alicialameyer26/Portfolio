@@ -4,9 +4,9 @@ import "./globals.css";
 const dm = DM_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Clément FAVAREL | Portfolio",
+  title: "Alicia Meyer | Portfolio",
   description:
-    "Portfolio de Clément Favarel, développeur web orienté backend et devops.",
+    "Portfolio de Alicia Meyer, UX & UI designer orientée Reaserch UX.",
 };
 
 export default function RootLayout({ children }) {

@@ -3,135 +3,114 @@
     "id": "1",
     "images": [
       {
-        "src": "/img/orasis-1.png",
-        "alt": "Orasis Homepage"
+        "src": "/img/facileat_1.png",
+        "alt": "Facileat app"
       },
       {
-        "src": "/img/orasis-2.png",
-        "alt": "Orasis Menu"
+        "src": "/img/facileat-2.gif",
+        "alt": "Site vitrine"
       },
       {
-        "src": "/img/orasis-3.png",
-        "alt": "Orasis Calendar"
+        "src": "/img/facileat-3.gif",
+        "alt": "Logo animé"
       },
       {
-        "src": "/img/orasis-4.png",
-        "alt": "Orasis Footer"
+        "src": "/img/facileat-2.jpg",
+        "alt": "Equipe Facileat"
       }
     ],
-    "title": "Orasis 2023",
-    "description": "Site web vitrine pour le colloque Orasis 2023. Réalisé dans le cadre d'un projet à l'IUT MMI Toulon.",
-    "fullDescription": "Orasis23 est un site web réalisé grâce au langage PHP et notamment grâce à du PHP orienté objet. Ce site web a pour rôle de présenter le colloque Orasis 2023. Les visiteurs peuvent consulter le programme, les intervenants, les partenaires et s'inscrire au colloque.",
-    "technologies": ["JavaScript", "PHP Objet", "MySQL"],
+    "title": "Facileat",
+    "description": "Projet 360° réalisé dans le cadre des REACOs à l'université de Toulon.",
+    "fullDescription": "Facileat est une application mobile qui faciliteun accès à une alimentation riche et variée, en particulier pour les personnes qui souffrent de contraintes alimentaires. UX&UI designer de l'équipe à l'origine de l'idée de ce projet, je suis fière que notre équipe finisse vainqueur de la compétition des REACO qui regroupait les masters en création numérique de l'UFR iIngémédia de l'université de Toulon. Ce que j'ai préféré dans ce projet, c'est d'avoir pu travailler en équipe pour rendre un produit final concrêt en explorant toutes les dimensions que regroupent la création d'un projet.",
+    "technologies": ["Figma", "Illustrator", "After Effect"],
     "concepts": [
-      "Utilisation du la programmation orientée objet",
-      "Création d'un système de rôles et permissions"
+      "Conduite d'un projet de A à Z",
+      "Collaboration en équipe"
     ],
-    "githubLink": "https://github.com/Gitfanlab/grab_cephismer",
+    "githubLink": "",
     "liveLink": ""
   },
   {
     "id": "2",
     "images": [
       {
-        "src": "/img/digihub-1.png",
-        "alt": "Digihub Homepage"
+        "src": "/img/klima-11.webp",
+        "alt": "klima onboarding"
       },
       {
-        "src": "/img/digihub-2.png",
-        "alt": "Digihub Login"
+        "src": "/img/klima-21.webp",
+        "alt": "klima app"
       },
       {
-        "src": "/img/digihub-3.png",
-        "alt": "Digihub Register"
+        "src": "/img/klima-31.webp",
+        "alt": "klima wireframes"
       }
     ],
-    "title": "Digihub",
-    "description": "Application de librairie en ligne de films et séries à l'image de Disney+, Netflix, etc. Réalisée dans le cadre d'un projet à l'IUT MMI Toulon.",
-    "fullDescription": "Digihub est une application web réalisée grâce au langage PHP et notamment grâce à du PHP orienté objet. Cette application a pour rôle de proposer aux utilisateurs une librairie de films et séries en ligne. Les utilisateurs peuvent s'inscrire, se connecter, consulter des films et séries depuis un catalogue et les ajouter à leur liste de favoris.",
-    "technologies": ["SASS", "JavaScript", "PHP", "MySQL"],
+    "title": "Klima",
+    "description": "Application mobile tournée vers les préocupations environnementales actuelles.",
+    "fullDescription": "Klima est une application à destination des usagers qui souhaitent intégrer des gestes environnementaux dans leur quotidien. Grâce à une navigation intuitive, des défis concrets et une visualisation claire des progrès, l’application mise sur la simplicité, la régularité et la confiance pour favoriser un changement durable. Ce positionnement s’appuie sur une esthétique low-tech, calme et fonctionnelle, qui encourage la concentration et l’appropriation. Il valorise la constance plutôt que la performance, et met en lumière la force collective issue des actions individuelles. L’application respecte autant l’environnement que l’attention de ses utilisateurs, en les accompagnant vers des gestes durables, à leur rythme.",
+    "technologies": ["Figma", "Illustrator"],
     "concepts": [
-      "Utilisation du la programmation orientée objet",
-      "Utilisation des méthodes C.R.U.D.",
-      "Système de connexion et inscription",
-      "Appels vers une API externe"
+      "Lisibilité & hiérarchisation de l’information",
+      "Fluidité & anticipation",
+      "Confiance & responsabilité partagée"
+      
     ],
-    "githubLink": "https://github.com/Gitfanlab/grab_cephismer",
+    "githubLink": "",
     "liveLink": ""
   },
   {
     "id": "3",
     "images": [
       {
-        "src": "/img/siac-1.png",
-        "alt": "Siac Homepage"
+        "src": "/img/phabric-1.svg",
+        "alt": "Phabric app"
       },
       {
-        "src": "/img/siac-2.png",
-        "alt": "Siac Map"
+        "src": "/img/phabric-2.svg",
+        "alt": "phabric mockup + zoning"
       }
     ],
-    "title": "SIAC 2024",
-    "description": "Application web guide pour la visite du salon international d'art contemporain de Marseille 2024. Réalisée dans le cadre d'un projet à l'IUT MMI Toulon",
-    "fullDescription": "SIAC24 est une application web réalisée grâce au langage PHP et notamment grâce à du PHP orienté objet. Cette application a pour rôle de guider les visiteurs du salon international d'art contemporain de Marseille 2024 en leur proposant un plan 3D du salon, ainsi qu'une description des artistes et de leurs oeuvres.",
-    "technologies": ["JavaScript", "PHP Objet", "3D", "Docker", "MySQL"],
+    "title": "Phabric",
+    "description": "Logiciel de gestion des embarquements pour les bâtiments militaires amphibies.",
+    "fullDescription": "PHAbric est une application conçue pour la Marine nationale afin de faciliter la planification et la gestion des embarquements sur les navires militaires amphibies (PHA – Porte-Hélicoptères Amphibies).\n\nElle combine une interface de type tableur et une visualisation 2D des hangars pour organiser l’embarquement et le débarquement des véhicules, matériels et personnels, tout en respectant les contraintes opérationnelles (sécurité, poids, dimensions, accessibilité).\n\nPensée pour les équipes de bord, l’application permet :\n- De visualiser en temps réel l’occupation des espaces,\n- D’anticiper les scénarios de chargement et de déchargement,\n- D’éviter les erreurs liées aux contraintes physiques et logistiques,\n- D’accélérer la prise de décision lors des opérations.\n\nMon rôle a consisté à travailler sur l’expérience utilisateur (UX) et l’interface (UI), afin de rendre un outil militaire complexe intuitif, ergonomique et utilisable en situation opérationnelle.",
+    "technologies": ["Figma"],
     "concepts": [
-      "Système de connexion et inscription",
-      "Intégration de medias 3D dans l'application",
-      "Conteneurisation du logiciel"
+      "Clarté et lisibilité des informations critiques",
+      "Combinaison efficace tableur + visualisation spatiale",
+      "Guidage et validation en temps réel",
+      "Fluidité et rapidité de l’usage terrain"
     ],
-    "githubLink": "https://github.com/Gitfanlab/grab_cephismer",
+    "githubLink": "",
     "liveLink": ""
   },
-  {
-    "id": "4",
-    "images": [],
-    "title": "App Démineur",
-    "description": "Application de calcul divers servant à compléter un journal d'opération. Application destinée au GPD-Med.",
-    "fullDescription": "App Démineur est une application mobile Android réalisée grâce au framework React Native. Cette application a pour rôle de calculer les paramètres de déminage et de les enregistrer pour en faire un journal d'opération pour les démineurs du GPD-Med de la Marine nationale.",
-    "technologies": ["React Native", "Expo"],
-    "concepts": ["Utilisation d'un framework mobile"],
-    "githubLink": "https://github.com/Gitfanlab/Appli_GPD",
-    "liveLink": ""
-  },
-  {
-    "id": "5",
-    "images": [],
-    "title": "GRAB CEPHISMER",
-    "description": "Application de gestion des réservations des actions pour bouteilles de plongée destinée au CEPHISMER.",
-    "fullDescription": "GRAB est un site web réalisé grâce au framework ExpressJS basé sur le langage JavaScript. Ce site web a pour rôle de gérer les réservations des actions pour les bouteilles de plongée de l'opérateur de la station du CEPHISMER de la Marine nationale.",
-    "technologies": ["Pug", "Express", "NodeJS", "MariaDB", "Docker"],
-    "concepts": [
-      "Utilisation d'un framework fullstack",
-      "Utilisation des méthodes C.R.U.D.",
-      "Système de connexion",
-      "Création d'un système de rôles",
-      "Conteneurisation du logiciel"
-    ],
-    "githubLink": "https://github.com/Gitfanlab/grab_cephismer",
-    "liveLink": ""
-  },
+ 
+
   {
     "id": "6",
-    "images": [],
-    "title": "SKELETOR",
-    "description": "Application web servant de modèle pour les projets web créés par les développeurs de la Marine nationale.",
-    "fullDescription": "SKELETOR est un site web minimaliste réalisé grâce au framework fullstack Laravel basé sur le langage PHP. Ce site web minimaliste a pour rôle de servir de template pour toutes les sites web réalisés par les développeurs du FANL@b de la Marine nationale.",
+    "images": [      {
+      "src": "/img/projperso-1-01.png",
+      "alt": "Phabric app"
+    },
+    {
+      "src": "/img/projperso-2.webp",
+      "alt": "phabric mockup + zoning"
+    }],
+    "title": "Projets personnels",
+    "description": "Un échantillon de ce que j'aime faire, en plus du design numérique",
+    "fullDescription": "J'affectionne depuis petite toute forme de loisirs créatifs, avec une appétence particulière pour le dessin à la main et la création textile. C'est pour moi un moyen de m'exprimer autrement qu'à travers des mots et d'explorer ma créativité. Apprendre de nouvelles techniques au quotidien me permet de développer une certaine agilité mentale : cette pratique régulière m'aide à maintenir une endurance créative, à rester curieuse et capable de m'adapter rapidement à des situations inédites. Les arts créatifs non numériques occupent pour moi une place essentielle dans toute approche du design, qu'il soit d'objet, de service ou numérique, car la créativité se cultive et se muscle à travers une multitude de formes et d'expériences concrètes. Travailler avec ses mains, expérimenter de nouveaux matériaux ou processus, c’est se donner les moyens de penser différemment et d’aborder chaque projet avec inventivité et flexibilité.",
     "technologies": [
-      "Laravel PHP",
-      "MariaDB",
-      "Laravel/Sail (Docker)",
-      "Tailwind CSS"
+      "Peinture",
+      "Crayon",
+      "Couture",
+      "Crochet"
     ],
     "concepts": [
-      "Utilisation d'un framework fullstack",
-      "Utilisation des méthodes C.R.U.D.",
-      "Système de connexion et inscription complet",
-      "Création d'un système de rôles et permissions",
-      "Conteneurisation du logiciel",
-      "Appels vers une API externe"
+      "Explorer",
+      "Apprendre",
+      "Se renouveler"
     ],
-    "githubLink": "https://github.com/Gitfanlab/skeletor",
+    "githubLink": "",
     "liveLink": ""
   }
 ]

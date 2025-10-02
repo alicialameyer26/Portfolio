@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
+
 export default function ProjectsSection() {
   const [projects, setProjects] = useState([]);
 
@@ -16,7 +17,8 @@ export default function ProjectsSection() {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="bg-darkTwo p-6 rounded-lg shadow-lg text-slate-100 relative"
+          className="bg-violet-950 hover:bg-indigo-950 transform transition duration-200 
+                   hover:scale-90 p-6 rounded-lg shadow-lg text-slate-100 relative"
           aria-label="Project Card"
           tabIndex="0"
         >
