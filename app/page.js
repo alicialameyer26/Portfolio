@@ -12,7 +12,7 @@ export default function Home() {
             <p>Hello !</p>
           </div>
           <h1 className="text-4xl sm:text-5xl font-semibold mt-5">
-            Moi, c'est <span className="marker">Alicia</span>
+            Moi, c'est <span className="marker">Alicia,</span>
             <br />
             <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-2 block">
               UX & UI Designer.
